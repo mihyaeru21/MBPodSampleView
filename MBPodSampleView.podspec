@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name          = "MBPodSampleView"
   s.version       = "0.0.1"
   s.summary       = "A short description of MBPodSampleView."
-  s.homepage      = "https://mihyaeru21/MBPodSampleView"
+  s.homepage      = "https://github.com/mihyaeru21/MBPodSampleView"
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = { "Mihyaeru" => "mihyaeru.app@gmail.com" }
   s.platform      = :ios, '6.0'
