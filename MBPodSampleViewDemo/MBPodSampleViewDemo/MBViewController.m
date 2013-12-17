@@ -7,6 +7,7 @@
 //
 
 #import "MBViewController.h"
+#import <MBPodSampleView.h>
 
 @interface MBViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    MBPodSampleView *view = [[MBPodSampleView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    view.center = self.view.center;
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

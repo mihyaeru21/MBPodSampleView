@@ -6,8 +6,8 @@
 //  Copyright (c) 2013年 Mihyaeru. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface MBPodSampleView : NSObject
+@interface MBPodSampleView : UIView
 
 @end
